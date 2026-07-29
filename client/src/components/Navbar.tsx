@@ -14,6 +14,7 @@ import {
   UserIcon,
   XIcon,
 } from "lucide-react";
+import { useCart } from "../context/CartContext";
 
 const Navbar = () => {
   // Temporary dummy data (will be replaced with Context/API later)
@@ -25,10 +26,7 @@ const Navbar = () => {
     // not sign in   
   // const user: any = null;
 
-  const { cartCount, setIsCartOpen } = {
-    cartCount: 5,
-    setIsCartOpen: (_data: any) => {},
-  };
+  const { cartCount, setIsCartOpen } = useCart()
 
   const [searchQuery, setSearchQuery] = useState("");
   const [userMenuOpen, setUserMenuOpen] = useState(false);

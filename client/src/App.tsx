@@ -7,7 +7,7 @@ import Products from "./pages/Products";
 import ProductPage from "./pages/ProductPage";
 import SearchResult from "./pages/SearchResult";
 import FlashDeals from "./pages/FlashDeals";
-import Checkout from "./pages/CheckOut";
+import Checkout from "./pages/Checkout";
 import MyOrders from "./pages/MyOrders";
 import OrderTracking from "./pages/OrderTracking";
 import Adresses from "./pages/Adresses";
