@@ -10,7 +10,7 @@ import FlashDeals from "./pages/FlashDeals";
 import Checkout from "./pages/Checkout";
 import MyOrders from "./pages/MyOrders";
 import OrderTracking from "./pages/OrderTracking";
-import Adresses from "./pages/Adresses";
+import Adresses from "./pages/Addresses ";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 const App = () => {
